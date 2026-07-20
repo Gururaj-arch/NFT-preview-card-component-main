@@ -133,6 +133,7 @@ border-radius:10px;
   /* border:2px solid rgb(152, 2, 2); */
   display: flex;
   width: 150px;
+  justify-content: flex-end;
 }
 .content .value-days .value-eth > img {
   margin-right: 10px;
@@ -146,7 +147,7 @@ border-radius:10px;
   color: var(--Soft-blue);
   display: flex;
   width: 150px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .content .value-days .days > img {
