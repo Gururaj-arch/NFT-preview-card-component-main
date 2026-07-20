@@ -21,7 +21,8 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  font-size:var(--body-font-size);
+  font-size: var(--body-font-size);
+  font-family: "Outfit", sans-serif;
 }
 
 main {
@@ -136,6 +137,10 @@ border-radius:10px;
 .content .value-days .value-eth > img {
   margin-right: 10px;
 }
+.content .value-days .card__time-left {
+  width: 150px;
+}
+
 .content .value-days .days {
   /* border:2px solid rgb(152, 2, 2); */
   color: var(--Soft-blue);

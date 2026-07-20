@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <main class="card">
       <div class="container">
         <section class="image">
           <div class="active"><img src="images/icon-view.svg" alt="view-icon"></div>
@@ -24,7 +24,9 @@
         </section>
 
         <section class="content">
-          <h1>Equilibrium #3429</h1>
+          <div class="card__title">
+            <h1>Equilibrium #3429</h1>
+          </div>
           <p class="desc">
             Our Equilibrium collection promotes <br />
             balance and calm.
@@ -35,24 +37,28 @@
               <img src="images/icon-ethereum.svg" alt="icon-ethereum" /> 0.041 ETH
             </p>
 
-            <p class="days">
-              <img src="images/icon-clock.svg" alt="clock" /> 3 days left
-            </p>
+            <div class="card__time-left">
+              <p class="days">
+                <img src="images/icon-clock.svg" alt="clock" /> <span>3 days left</span>
+              </p>
+            </div>
           </section>
           <hr />
-          <p class="creation">
-            <img src="images/image-avatar.png" alt="man" /> Creation of
-            <span> Jules Wyvern</span>
-          </p>
+          <div class="card__creator">
+            <p class="creation">
+              <img src="images/image-avatar.png" alt="man" /> Creation of
+              <span> Jules Wyvern</span>
+            </p>
+          </div>
         </section>
       </div>
     </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/Lovegupta112">Love Gupta</a>.
-    </div>
+    </footer>
   </body>
 </html>
